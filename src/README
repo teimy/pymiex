@@ -1,0 +1,29 @@
+===============================================================================
+HOW TO USE THE EXAMPLES?
+===============================================================================
+
+1. Compile Code:
+   [a] Fortran90 Compiler 
+       (tested: Sun (SUNW,Sun-Blade-1000), OS 5.8 
+		/ Compiler: Sun WorkShop Compiler Fortran 90 2.0):
+
+       make -f makefile_f90
+
+   or
+   [b] Intel Fortran Compiler
+       (tested: Intel XEON CPU 3.0GHz, SuSE Linux 9.0
+		/ Compiler: Intel(R) Fortran Compiler 8.0):
+
+       make -f makefile_ifc
+
+-------------------------------------------------------------------------------
+2. Run the code:
+   
+   [a] execute miex
+       (follow instructions in Appendix A "Test Run")
+
+   or
+   [b] Example 1:    miex < 1.in
+       Example 2:    miex < 2.in
+
+===============================================================================
